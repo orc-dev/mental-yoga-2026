@@ -4,7 +4,7 @@ import './intro.css';
 
 export default function Intro() {
     const { sys } = useAppContext();
-    const backgroundImage = '/mental_yoga_theme.png';
+    const backgroundImage = `${import.meta.env.BASE_URL}mental_yoga_theme.png`;
 
     const onStart = () => {
         sys.appStage.set(APP_STAGE.GAME);
