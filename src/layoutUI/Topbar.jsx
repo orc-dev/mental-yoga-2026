@@ -20,7 +20,7 @@ export default function Topbar() {
         <div className='topbar__brand'>
             <img
                 className='topbar__logo'
-                src='/cube_icon.png'
+                src={`${import.meta.env.BASE_URL}cube_icon.png`}
                 alt='Mental Yoga logo'
             />
             <div className='topbar__title'>
